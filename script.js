@@ -2,7 +2,7 @@ function header(logoimg) {
     document.write(` <header>
             <nav>
                 <div class="logo">
-                    <img src="/Png/${logoimg}.png" alt="pizza"/>
+                    <img src="Png/${logoimg}.png" alt="pizza"/>
                     <h2>Foody</h2>
                 </div>
                 <ul>
@@ -35,7 +35,7 @@ function discover(profile_img,dis_img) {
                 </p>
                 <div class="dis_profile">
                     <img
-                        src="/Images/People/${profile_img}.jpg"
+                        src="Images/People/${profile_img}.jpg"
                         alt="abdul hasan"
                         width="60px"
                     />
@@ -46,7 +46,7 @@ function discover(profile_img,dis_img) {
                 </div>
             </div>
             <div class="discover_img">
-                <img src="/Images/Discover/${dis_img}.png" alt="discover image" />
+                <img src="Images/Discover/${dis_img}.png" alt="discover image" />
             </div>
         </section>`);
 }
@@ -64,9 +64,9 @@ function feed(img1,img2,img3) {
                 </ul>
             </div>
             <div class="feed">
-                <img src="/Images/Feed/${img1}.jpg" alt="feed1" />
-                <img src="/Images/Feed/${img2}.jpg" alt="feed2" class="blur_img" />
-                <img src="/Images/Feed/${img3}.jpg" alt="feed3" />
+                <img src="Images/Feed/${img1}.jpg" alt="feed1" />
+                <img src="Images/Feed/${img2}.jpg" alt="feed2" class="blur_img" />
+                <img src="Images/Feed/${img3}.jpg" alt="feed3" />
                 <div class="fee_txt">
                     <h2>Chicken Roast</h2>
                     <h4>Meat & Meal</h4>
